@@ -150,7 +150,16 @@ public class Condicionales {
     		  }
     		  
     	  }  
+
     	  return "m";
       }
      
+      public int Arreglo(int Arreglo) { 
+    	return 0;  
+      }
+      
+      
+//      return"";
 }
+
+
