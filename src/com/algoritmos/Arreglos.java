@@ -33,14 +33,30 @@ public class Arreglos {
 	
 	public static void main(String args[]) {
 		 	
-		int Numeros[] = new int [5];
+		int i=0;
+		int Numeros[] = new int [10];
 		
-		Numeros[0] =5;
-		Numeros[0] =5;
-		Numeros[0] =5;
-		Numeros[0] =5;
-		Numeros[0] =5;
 		
+		Numeros[0] =0;
+		Numeros[1] =1;
+		Numeros[2] =2;
+		Numeros[3] =3;
+		Numeros[4] =4;
+		Numeros[5] =5;
+		Numeros[6] =6;
+		Numeros[7] =7;
+		Numeros[8] =8;
+		Numeros[9] =9;
+		
+		
+		int aux = Numeros[0];
+		
+		for(i=0; i<Numeros.length-1; i++) {
+			Numeros [i] = Numeros[i+1];
+			System.out.println(Numeros[i]);
+		}
+		Numeros[Numeros.length-1]=aux;
+		System.out.println(Numeros[i]);
 	}
 	
 }

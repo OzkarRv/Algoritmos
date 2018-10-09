@@ -246,7 +246,7 @@ public class AlgoritmosApp {
 		
 		//TreeMap Incluye una clave por cada valor , y se ordena  automaticamente de acuerdo a laSTRINGes  
 		
-			TreeMap<String, Integer> tmap = new TreeMap<>();
+			/*TreeMap<String, Integer> tmap = new TreeMap<>();
 			tmap.put("Michelle", 90);
 			tmap.put("Oscar", 95);
 			tmap.put("Alan", 91);
@@ -254,10 +254,25 @@ public class AlgoritmosApp {
 		
 			Iterator it = tmap.keySet().iterator();
 			while(it.hasNext()) {
-				String clave = (String)it.next();
+				String clave = (String) it.next();
 				System.out.println(clave+"---"+tmap.get(clave));
+				
 			}
+			tmap.remove("Yareli");*/
+			
+			
+			
+		Archivos archivo = new Archivos();
+		String Lorem = "";
+		
+		Lorem = archivo.remplazarvocal("C:\\Users\\OscarRv\\Desktop\\Archivo.txt");
+		System.out.println(Lorem);
+		 
+		
+		 archivo.minusculas("C:\\Users\\OscarRv\\Desktop\\NuevoArchivo.txt",Lorem);
+		 
 			}
+	
 		
 			}
 		
